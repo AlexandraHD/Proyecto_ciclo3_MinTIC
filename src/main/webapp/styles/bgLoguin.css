@@ -22,9 +22,9 @@
     height: 80vh;
   }
   .efectovidrio {
-    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, ); 
     background-color: rgba(255, 255, 255, 0.0);
-    backdrop-filter: blur(7px);
+    backdrop-filter: blur(2px);
   }
 .bgimg{
     background: url("../assets/fondoLoguin.jpg");
@@ -35,7 +35,7 @@
     background-position: center;
     height: 100%;
     width: 100%;
-    /* position: absolute; */
+    position: absolute;
 }
 .slider-container {
   border-radius: 5px;
